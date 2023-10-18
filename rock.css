@@ -2,7 +2,8 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
-  background-image: url(../images/46455411.jpg);
+  background-image: url(images/hands-playing-rock-paper-scissors-game-flat-design-style-vector-illustration_540284-598.avif);
+  
 }
 
 img {
@@ -37,12 +38,15 @@ button:hover {
   margin-left: 100px;
   border-radius: 10px;
   position: relative;
+  
 }
 .head .h11 {
-  margin-left: 60px;
+  margin-left: 120px;
   text-shadow: 2px 2px 2px black;
   color: rgb(255, 132, 0);
   font-size: 40px;
+  text-wrap: nowrap;
+  
 }
 h2 {
   text-shadow: 2px 2px 2px black;
@@ -79,6 +83,10 @@ span {
   margin-top: 30px;
   position: relative;
 }
+.btn {
+  bottom: 5%;
+  margin-left: 20px;
+}
 hr {
   border-color: rgb(255, 123, 0);
 }
@@ -94,6 +102,7 @@ hr {
     color: rgb(255, 132, 0);;
     font-size: 30px; 
     margin-right: 100px;
+    text-wrap: nowrap;
 }
 .group h1 {
   margin-right: 130px;
@@ -110,13 +119,13 @@ hr {
 
 
 @media (max-width : 780px){
+
+
   img {
     width: 50px;
     
   }
-  body {
-    background-image: url(../images/46455411.jpg);
-  }
+  
   
   
   
@@ -129,8 +138,9 @@ hr {
  .head .h11 {
     
     
-    
+    margin-left: 7%;
     font-size: 30px;
+    
   }
   h2 {
     
@@ -145,29 +155,38 @@ hr {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+  .bod button img {
+    width: 30px;
+  }
+
+  
   button {
-    border-color: rgb(255, 132, 0);;
+    border-color: rgb(255, 132, 0);
   }
   .btn {
-    bottom: -15%;
+    bottom: -8%;
+    margin-left: 10px;
   }
   .group {
-    margin-bottom: 0%;
+    margin-bottom: -1%;
+    margin-left: -20%;
   }
   #gameOver {
-    margin-left: -0px;
-    font-size: 22px;
+    margin-left: 20px;
+    font-size: 40px;
   
   }
 
   .group h3 {
-    font-size: 22px;
+    font-size: 25px;
     margin-right: 120px;
     
   }
   .group #btn3 {
-    margin-left: 10%;
+    margin-left: 20%;
+  }
+  .winGame {
+    gap: 20px;
   }
   
-
 }

@@ -96,8 +96,8 @@ loseScore.innerHTML = final.loser
               
               Results.style.display = 'none'
               gameOver.style.display = 'block'
-              gameOver.innerHTML = 'game over'
-              won.innerHTML = 'you won the game &#128525';
+              gameOver.innerHTML = 'Game over'
+              won.innerHTML = 'you won the game 🎊🥳';
               btn3.style.display = 'block'
               reset()
             } else if (score.losses === 5) {
@@ -106,7 +106,7 @@ loseScore.innerHTML = final.loser
               
               Results.style.display = 'none'
               gameOver.style.display = 'block'
-              gameOver.innerHTML = 'game over'
+              gameOver.innerHTML = 'Game over'
               won.innerHTML = 'you lose the game &#128557';
               btn3.style.display = 'block'
               
@@ -188,15 +188,15 @@ loseScore.innerHTML = final.loser
           
           Results.style.display = 'none'
           gameOver.style.display = 'block'
-          gameOver.innerHTML = 'game over'
-          won.innerHTML = 'you won the game &#128525';
+          gameOver.innerHTML = 'Game over'
+          won.innerHTML = 'you won the game 🎉🥳';
           btn3.style.display = 'block'
           reset()
         } else if (score.losses === 5) {
           
           Results.style.display = 'none'
           gameOver.style.display = 'block'
-          gameOver.innerHTML = 'game over'
+          gameOver.innerHTML = 'Game over'
           won.innerHTML = 'you lose the game &#128557';
           btn3.style.display = 'block'
           
@@ -258,15 +258,15 @@ loseScore.innerHTML = final.loser
          
           Results.style.display = 'none'
           gameOver.style.display = 'block'
-          gameOver.innerHTML = 'game over'
-          won.innerHTML = 'you won the game &#128525';
+          gameOver.innerHTML = 'Game over'
+          won.innerHTML = 'you won the game 🎉🥳';
           btn3.style.display = 'block'
           reset()
         } else if (score.losses === 5) {
           
           Results.style.display = 'none'
           gameOver.style.display = 'block'
-          gameOver.innerHTML = 'game over'
+          gameOver.innerHTML = 'Game over'
           won.innerHTML = 'you lose the game &#128557';
           btn3.style.display = 'block'
           
