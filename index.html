@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="rock.css">
+</head>
+<body>
+  
+  <div class="head">
+
+  <h1 class="h11">Rock Paper Scissors</h1>
+  <hr>
+  <div id="Results">
+    <h2>Computer Choice: <span id="computer-choice"></span></h2>
+    <h2>Player Choice: <span id="user-choice"></span></h2>
+    
+    <h2>Result: <span id="result"></span></h2>
+    <div class="winGame">
+      <h4>Wins: <span id="win"></span></h4>
+      <h4>Losses: <span id="lose"></span></h4>
+      <h4>Ties: <span id="tie"></span></h4>
+  </div> <br>
+ 
+  
+  
+
+  <div class="bod">
+  <button onclick="
+    rock()
+    
+  " id="rock"><img src="images/download.jpg"></button>
+  <button onclick="
+    Paper()
+    
+  " id="paper"><img src="images/images.png"></button>
+  <button onclick="
+    Scissors()
+  
+  " id="scissors"><img src="images/download (1).jpg"></button>
+
+  </div>
+  
+  <button onclick="
+reset()
+
+" class="btn">Reset Score</button>
+
+</div>
+  <div class="group">
+    <h1 id="gameOver" style=></h1>
+    <h3 id="won"></h3>
+    <button onclick="
+      restartBtn()
+    " id="btn3" style="margin-right: 100px;height: 40px; font-weight: 700; display: none;">Restart Game</button>
+  </div>
+  <img src="images/hands-playing-rock-paper-scissors-game-flat-design-style-vector-illustration_540284-598.avif" style="width: 100%;">
+
+
+
+
+  <script
+  src="rock.js"></script>
+</body>
+</html>
